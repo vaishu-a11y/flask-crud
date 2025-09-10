@@ -1,8 +1,6 @@
-# server banvta yet flask madd n
-
 from flask import Flask,jsonify,request
 import json
-app= Flask(__name__)
+app = Flask(__name__)
 
 def getAllTodos():
  with open("db.json") as file:
