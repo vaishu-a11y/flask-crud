@@ -1,4 +1,4 @@
-from flask import Flask,jsonify,request
+from flask import Flask,jsonify,request, render_template
 import json
 app = Flask(__name__)
 
@@ -14,7 +14,7 @@ def addTodo(data):
 
 @app.route("/")
 def home():
-    return "welcome to Flask Todo App"
+    return render_template("index.html")
 
 @app.route("/create", methods=["POST"])
 def createTodo():

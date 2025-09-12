@@ -10,5 +10,21 @@
     {
         "id": 4,
         "task": "learn python"
+    },
+    {
+        "id": 4,
+        "task": "learn css"
+    },
+    {
+        "id": 5,
+        "task": "vaishnavi"
+    },
+    {
+        "id": 6,
+        "task": "hello python"
+    },
+    {
+        "id": 7,
+        "task": "athrv"
     }
 ]
